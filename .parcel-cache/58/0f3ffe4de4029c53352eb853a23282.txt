@@ -12,7 +12,7 @@
 63C:\Users\Mike\documents\dev\sash\node_modules\readdirp\index.js121436361000000000 0
 55C:\Users\Mike\documents\dev\sash\node_modules\picomatch132586998666380038 1
 84C:\Users\Mike\documents\dev\sash\node_modules\node-addon-api\doc\async_operations.md121436361000000000 0
-37C:\Users\Mike\documents\dev\sash\dist132638812398919333 1
+37C:\Users\Mike\documents\dev\sash\dist132638818684064634 1
 62C:\Users\Mike\documents\dev\sash\node_modules\readdirp\LICENSE121436361000000000 0
 42C:\Users\Mike\documents\dev\sash\.cache\a7132586998588518298 1
 55C:\Users\Mike\documents\dev\sash\node_modules\is-number132586998666390078 1
@@ -34,8 +34,8 @@
 52C:\Users\Mike\documents\dev\sash\node_modules\braces132586998666310049 1
 66C:\Users\Mike\documents\dev\sash\node_modules\fill-range\README.md121436361000000000 0
 77C:\Users\Mike\documents\dev\sash\node_modules\node-addon-api\doc\reference.md121436361000000000 0
-55C:\Users\Mike\documents\dev\sash\dist\index.b4f5078c.js132638812398765703 0
-49C:\Users\Mike\documents\dev\sash\style\style.scss132638809038621581 0
+55C:\Users\Mike\documents\dev\sash\dist\index.b4f5078c.js132638818683881817 0
+49C:\Users\Mike\documents\dev\sash\style\style.scss132638818594796767 0
 65C:\Users\Mike\documents\dev\sash\node_modules\picomatch\README.md121436361000000000 0
 42C:\Users\Mike\documents\dev\sash\.cache\7f132586998587823953 1
 54C:\Users\Mike\documents\dev\sash\style\_variables.scss132586962235971862 0
@@ -328,7 +328,7 @@
 42C:\Users\Mike\documents\dev\sash\.cache\99132586998588359867 1
 63C:\Users\Mike\documents\dev\sash\node_modules\anymatch\index.js121436361000000000 0
 49C:\Users\Mike\documents\dev\sash\img\torghast.jpg132586972240860384 0
-59C:\Users\Mike\documents\dev\sash\dist\index.b4f5078c.js.map132638812398862613 0
+59C:\Users\Mike\documents\dev\sash\dist\index.b4f5078c.js.map132638818684064634 0
 42C:\Users\Mike\documents\dev\sash\.cache\db132586998589608074 1
 62C:\Users\Mike\documents\dev\sash\node_modules\anymatch\LICENSE121436361000000000 0
 64C:\Users\Mike\documents\dev\sash\node_modules\anymatch\README.md121436361000000000 0
@@ -447,9 +447,9 @@
 59C:\Users\Mike\documents\dev\sash\node_modules\.bin\sass.cmd132586998666740313 0
 42C:\Users\Mike\documents\dev\sash\.cache\30132586998583060337 1
 59C:\Users\Mike\documents\dev\sash\node_modules\.bin\sass.ps1132586998666740313 0
-56C:\Users\Mike\documents\dev\sash\dist\index.8f1b7f79.css132638812398765703 0
-60C:\Users\Mike\documents\dev\sash\dist\index.8f1b7f79.css.map132638812398862613 0
-48C:\Users\Mike\documents\dev\sash\dist\index.html132638812398765703 0
+56C:\Users\Mike\documents\dev\sash\dist\index.8f1b7f79.css132638818683872144 0
+60C:\Users\Mike\documents\dev\sash\dist\index.8f1b7f79.css.map132638818684018933 0
+48C:\Users\Mike\documents\dev\sash\dist\index.html132638818683902145 0
 42C:\Users\Mike\documents\dev\sash\.cache\e6132586998590170604 1
 56C:\Users\Mike\documents\dev\sash\dist\script.75da7f30.js132589672807789355 0
 42C:\Users\Mike\documents\dev\sash\.cache\2c132586998583012617 1
@@ -460,7 +460,7 @@
 60C:\Users\Mike\documents\dev\sash\dist\style.e0c02e61.css.map132589672808856807 0
 42C:\Users\Mike\documents\dev\sash\.cache\4d132586998584790278 1
 55C:\Users\Mike\documents\dev\sash\dist\style.e0c02e61.js132589672807789355 0
-59C:\Users\Mike\documents\dev\sash\dist\torghast.15d13e62.jpg132638812397769049 0
+59C:\Users\Mike\documents\dev\sash\dist\torghast.15d13e62.jpg132638818683762308 0
 42C:\Users\Mike\documents\dev\sash\.cache\00132586998552199360 1
 42C:\Users\Mike\documents\dev\sash\.cache\03132586998552229063 1
 42C:\Users\Mike\documents\dev\sash\.cache\06132586998558839145 1
