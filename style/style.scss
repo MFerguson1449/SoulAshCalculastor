@@ -56,6 +56,7 @@ body {
 #calculatorFrame {
     width: 50%;
     height: 50%;
+    background: #1b1b1b;
     border: 8px solid $dkRed;
     display: flex;
     justify-content: center;
@@ -81,12 +82,17 @@ body {
         justify-content: space-evenly;
         width: 100%;
     }
-    .choiceButton {
+    .calculatorButton {
         border: 2px solid $dkRed;
         padding: 1% 3%;
         background: none;
         font-family: $fontMain;
         font-size: 16px;
         color: white;
+    }
+    .currentlySelectedButton {
+        border: 3px solid $accentBlue;
+        font-weight: 700;
+        background-color: #1b1b1b; 
     }
 }
