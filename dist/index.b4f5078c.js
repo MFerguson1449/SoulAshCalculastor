@@ -452,7 +452,7 @@ calculatorButtons.forEach((calculatorButton) => {
 
 function selectButton(e) {
     clearButton(e);
-    let selectedButton = e.target;
+    const selectedButton = e.target;
     selectedButton.classList.add('currentlySelectedButton');
 };
 
@@ -467,6 +467,16 @@ function clearButton(e) {
         });
     };
 };
+
+// !Soul Ash Calculation! //
+const soulAshCosts = [1250, 2000, 3200, 5150];
+
+function calculateCost() {
+    const currentiLevelSelection //TODO - Apply Soul Ash values to each button
+    const desirediLevelSelection //TODO - Variable for each selected value (Check parent class?)
+    const soulAshCost = desirediLevelSelection - currentiLevelSelection;
+    return soulAshCost;
+}
 },{}]},["63iPG","4ThtM"], "4ThtM", "parcelRequire427e")
 
 //# sourceMappingURL=index.b4f5078c.js.map
