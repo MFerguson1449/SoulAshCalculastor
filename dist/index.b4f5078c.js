@@ -445,18 +445,23 @@ id) /*: string*/
 const calculatorButtons = document.querySelectorAll('.calculatorButton');
 const currentiLevelButtons = document.querySelectorAll('.currentiLevelButton');
 const desirediLevelButtons = document.querySelectorAll('.desirediLevelButton');
+const soulAshNeeded = document.querySelector('.soulAshNeeded');
+
+let currentiLevelCost = 0;
+let desirediLevelCost = 0;
 
 calculatorButtons.forEach((calculatorButton) => {
-    calculatorButton.addEventListener('click', selectButton);
+    calculatorButton.addEventListener('click', selectButton); // Listen for clicks on buttons
 });
 
 function selectButton(e) {
-    clearButton(e);
+    clearButtons(e); // Reset other buttons
     const selectedButton = e.target;
-    selectedButton.classList.add('currentlySelectedButton');
+    selectedButton.classList.add('currentlySelectedButton');  // Add selected class to element
+    calculateCost(e.target);
 };
 
-function clearButton(e) {
+function clearButtons(e) {
     if(e.target.classList.contains('currentiLevelButton')) {
         currentiLevelButtons.forEach((currentiLevelButton) => {
             currentiLevelButton.classList.remove('currentlySelectedButton')
@@ -468,15 +473,24 @@ function clearButton(e) {
     };
 };
 
-// !Soul Ash Calculation! //
-const soulAshCosts = [1250, 2000, 3200, 5150];
+function calculateCost(selectedButton) {
+    if (selectedButton.classList.contains('currentiLevelButton')) {
+        currentiLevelCost = selectedButton.dataset.soulashcost;
+    } else {
+        desirediLevelCost = selectedButton.dataset.soulashcost;
+    }
 
-function calculateCost() {
-    const currentiLevelSelection //TODO - Apply Soul Ash values to each button
-    const desirediLevelSelection //TODO - Variable for each selected value (Check parent class?)
-    const soulAshCost = desirediLevelSelection - currentiLevelSelection;
-    return soulAshCost;
+    const soulAshCost = desirediLevelCost - currentiLevelCost;
+    if(soulAshCost > 0) {
+        soulAshNeeded.textContent = soulAshCost;
+    }
+
+    // TODO Change Soul Ash Cost element withotu removing CSS
+
+    console.log(`Current = ${currentiLevelCost} - Desired = ${desirediLevelCost}`);
+    console.log(soulAshCost);
 }
+
 },{}]},["63iPG","4ThtM"], "4ThtM", "parcelRequire427e")
 
 //# sourceMappingURL=index.b4f5078c.js.map

@@ -98,4 +98,9 @@ h1 {
   color: #C41F3B;
   font-weight: 700;
 }
+
+#calculatorFrame .soulAshNeeded {
+  position: relative;
+  top: 20%;
+}
 /*# sourceMappingURL=index.8f1b7f79.css.map */
