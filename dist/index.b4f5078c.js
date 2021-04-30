@@ -482,7 +482,7 @@ function calculateCost(selectedButton) {
 
     const soulAshCost = desirediLevelCost - currentiLevelCost;
     if(soulAshCost > 0) {
-        soulAshNeeded.textContent = soulAshCost;
+        soulAshNeeded.innerHTML = `<h1>${soulAshCost}</h1>`;
     }
 
     // TODO Change Soul Ash Cost element withotu removing CSS

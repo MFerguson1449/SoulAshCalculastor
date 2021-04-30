@@ -93,8 +93,15 @@ html {
         color: $dkRed;
         font-weight: 700;
     }
-    .soulAshNeeded {
+    .soulAshCalculation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         position: relative;
         top: 20%;
+        img {
+            scale: 60%;
+            border-radius: 5px;
+        }
     }
 }

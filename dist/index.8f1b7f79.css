@@ -99,8 +99,16 @@ h1 {
   font-weight: 700;
 }
 
-#calculatorFrame .soulAshNeeded {
+#calculatorFrame .soulAshCalculation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   position: relative;
   top: 20%;
+}
+
+#calculatorFrame .soulAshCalculation img {
+  scale: 60%;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=index.8f1b7f79.css.map */
